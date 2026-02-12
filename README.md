@@ -1,3 +1,3 @@
-# Tugas-Proyek-1--THE-FOOL-
+# Tugas-Proyek-1--THE-FOOL
 
-123
+Repo Baru, Aturan Baru
