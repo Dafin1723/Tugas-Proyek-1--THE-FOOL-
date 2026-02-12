@@ -1,4 +1,6 @@
-# Tugas-Proyek-1--THE-FOOL-
+# Tugas-Proyek-1--THE-FOOL
+
+Repo Baru, Aturan Baru
 
 # DILARANG PUSH KE MAIN !!!
 ## Push ke brach masing masing
