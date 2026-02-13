@@ -4,3 +4,26 @@ from werkzeug.utils import secure_filename
 import os
 from datetime import datetime
 from pathlib import Path
+
+def pesan():
+    if request.method == 'POST':
+        nama = request.form.get('nama')
+        kontak = request.form.get('kontak')
+        jenis = request.form.get('jenis_print')
+        ukuran = request.form.get('ukuran')
+        jumlah = request.form.get('jumlah', type=int)
+        file = request.files.get('file')
+
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+            pesanan = Pesanan(nama=nama, kontak=kontak, jenis_print=jenis,
+                              ukuran=ukuran, jumlah=jumlah, file_path=file_path)
+            db.session.add(pesanan)
+            db.session.commit()
+            flash('Pesanan berhasil dikirim! Tunggu admin cek ya.', 'success')
+        else:
+            flash('File tidak valid atau kosong.', 'danger')
+        return redirect(url_for('pesan'))
+    return render_template('user/index.html')  # atau pesan.html kalau ganti nama
