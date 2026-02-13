@@ -5,5 +5,12 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-app = Flask (__name__)
-app.secure_filename = 'fikripro'
+#(Dafin )
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
+
+#(Dafin )
+@app.route('/')
+def home():
+    return redirect(url_for('produk'))
+
