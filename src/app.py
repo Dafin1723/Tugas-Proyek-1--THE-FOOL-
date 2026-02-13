@@ -5,9 +5,6 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-app = Flask (__name__)
-app.secure_filename = 'fikripro'
-
 # MODEL DATABASE
 class Pesanan(db.Model):
     id = db.Column(db.Integer, primary_key=True)
