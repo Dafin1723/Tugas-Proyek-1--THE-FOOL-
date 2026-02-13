@@ -27,3 +27,17 @@ def pesan():
             flash('File tidak valid atau kosong.', 'danger')
         return redirect(url_for('pesan'))
     return render_template('user/index.html')  # atau pesan.html kalau ganti nama
+
+def admin_login():
+    if request.method == 'POST':
+        username = request.form.get('username')
+        password = request.form.get('password')
+        if username == 'admin' and password == 'unitproduksi123':
+            session['admin_logged_in'] = True
+            session['admin_user'] = username
+            flash('Login berhasil! Selamat datang Admin.', 'success')
+            return redirect(url_for('admin'))
+        else:
+            flash('Username atau password salah.', 'danger')
+    return render_template('admin/login.html')
+
