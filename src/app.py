@@ -41,3 +41,9 @@ def admin_login():
             flash('Username atau password salah.', 'danger')
     return render_template('admin/login.html')
 
+def admin_logout():
+    session.pop('admin_logged_in', None)
+    session.pop('admin_user', None)
+    flash('Anda telah logout.', 'info')
+    return redirect(url_for('admin_login'))
+
