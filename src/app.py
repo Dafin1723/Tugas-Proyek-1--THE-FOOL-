@@ -7,3 +7,14 @@ from pathlib import Path
 
 app = Flask (__name__)
 app.secure_filename = 'fikripro'
+
+# MODEL DATABASE
+class Pesanan(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    nama = db.Column(db.String(100), nullable=False)
+    kontak = db.Column(db.String(100))
+    jenis_print = db.Column(db.String(50))
+    ukuran = db.Column(db.String(20))
+    jumlah = db.Column(db.Integer)
+    file_path = db.Column(db.String(255))
+    status = db.Column(db.String(20), default='pending')
