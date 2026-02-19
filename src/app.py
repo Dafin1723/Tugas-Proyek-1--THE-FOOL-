@@ -9,12 +9,10 @@ from pathlib import Path
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
 
-#(Dafin )
 @app.route('/')
 def home():
     return redirect(url_for('produk'))
 
-# Proteksi semua route /admin (Dafin kerjain)
 @app.before_request
 def require_admin_login():
     if request.path.startswith('/admin') and request.path != '/admin/login':
