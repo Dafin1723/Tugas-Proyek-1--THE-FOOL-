@@ -19,3 +19,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16 MB max file size
 
 Path(UPLOAD_FOLDER).mkdir(parents=True, exist_ok=True)
+
+# Initialize database
+init_db(app)
+
+# Register all routes
+register_routes(app)
