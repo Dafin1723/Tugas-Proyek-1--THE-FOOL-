@@ -15,3 +15,14 @@ class Pesanan(db.Model):
     jumlah = db.Column(db.Integer)
     file_path = db.Column(db.String(255))
     status = db.Column(db.String(20), default='pending')
+
+# Buat tabel (kalau belum ada)
+with app.app_context():
+    db.create_all()
+
+# Halaman Katalog Produk (template produk.html)
+@app.route('/produk')
+def produk():
+    return render_template('produk.html')
+
+# Penggabungan di handle Dafin
