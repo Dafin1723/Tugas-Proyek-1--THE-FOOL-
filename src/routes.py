@@ -40,6 +40,11 @@ def register_routes(app):
     def index():
         """Landing page dengan katalog produk"""
         return render_template('produk.html')
+
+    @app.route('/produk')
+    def produk():
+        """Alias untuk halaman produk"""
+        return render_template('produk.html')
     
     @app.route('/pesan', methods=['GET', 'POST'])
     def pesan():
