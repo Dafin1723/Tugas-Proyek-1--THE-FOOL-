@@ -1,13 +1,9 @@
-# Tugas-Proyek-1--THE-FOOL
-
-Repo Baru, Aturan Baru
-
-# DILARANG PUSH KE MAIN !!!
-## Push ke brach masing masing
+# Tugas-Proyek 1 THE-FOOL
 
 
-![Dafin commits](https://img.shields.io/github/commit-activity/m/Dafin1723/Tugas-Proyek-1--THE-FOOL-)
-![GitHub last commit](https://img.shields.io/github/last-commit/Dafin1723/Tugas-Proyek-1--THE-FOOL-)
+
+
+
 
 
 
@@ -123,20 +119,32 @@ Thanks buat semua yang sudah kontribusi di project ini 🙌
 
 
 
-###
-
-![Demo Animasi](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnMyMXJhMjBjbnFiNjhhMDBjemFrN3k0bW1oZXN0YmwxbmZtZzZoYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8JCIWBz8oRRLZmZhNn/giphy.gif)
-
+## Dokumentasi Project
 ---
+## Wawancara
+
+<div align="center">
+
+<img src="img/dokumentasi wawancara.jpg" width="250" style="aspect-ratio:1/1; object-fit:cover; margin:10px;" />
+<img src="img/dokumentasi wawancara2.jpg" width="250" style="aspect-ratio:1/1; object-fit:cover; margin:10px;" />
+
+
+
+
+
+
+
 
  # 🖨️ Fikri Production - Digital Printing Management System
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.0-blue)
-![Python](https://img.shields.io/badge/python-3.8+-green)
-![Flask](https://img.shields.io/badge/flask-3.0.0-red)
-![License](https://img.shields.io/badge/license-MIT-yellow)
+###  Scrennshoot Tampilan WEB
+
+![landing page](img/WEBUP1.png)
+![cek pesanan](img/WEBUP2.png)
+![status pesanan](img/WEBUP4.png)
+![admin dashboard](img/WEBUP3.png)
 
 **Sistem Manajemen Pemesanan Online untuk Unit Produksi Digital Printing**
 
@@ -484,13 +492,13 @@ Klik "Logout" di navbar
 
 ### **Use Case 1: Siswa Pesan Print Tugas**
 
-**Actor:** Siswa (Muhammad)  
+**Actor:** Siswa (Dafin)  
 **Goal:** Print tugas matematika 50 lembar
 
 **Flow:**
-1. Muhammad buka website di HP
+1. Dafin buka website di HP
 2. Klik "Order Now"
-3. Isi nama: Muhammad, kontak: 08123456789, email: muhammad@gmail.com
+3. Isi nama: Dafin, kontak: 08123456789, email: Dafin@gmail.com
 4. Pilih: Document Print, Hitam Putih, A4, HVS 70gr, 50 lembar
 5. Set tanggal ambil: besok
 6. Upload file tugas.pdf (2MB)
@@ -562,3 +570,5 @@ Klik "Logout" di navbar
 8. Poster langsung muncul di landing page
 
 **Impact:** Meningkatkan awareness produk baru
+
+## Semoga webb ini bisa membatu
