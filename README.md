@@ -117,13 +117,14 @@ Thanks buat semua yang sudah kontribusi di project ini 🙌
 
 ![Dafin commits](https://img.shields.io/github/commit-activity/m/Dafin1723/Tugas-Proyek-1--THE-FOOL-)
 
-
-
-## Dokumentasi Project
 ---
-## Wawancara
 
 <div align="center">
+
+## Dokumentasi Project
+<div align="center">
+
+## Wawancara
 
 <img src="img/dokumentasi wawancara.jpg" width="250" style="aspect-ratio:1/1; object-fit:cover; margin:10px;" />
 <img src="img/dokumentasi wawancara2.jpg" width="250" style="aspect-ratio:1/1; object-fit:cover; margin:10px;" />
