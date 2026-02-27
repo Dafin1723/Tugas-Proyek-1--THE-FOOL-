@@ -129,7 +129,7 @@ Thanks buat semua yang sudah kontribusi di project ini 🙌
 
 ---
 
- 🖨️ Fikri Production - Digital Printing Management System
+ # 🖨️ Fikri Production - Digital Printing Management System
 
 <div align="center">
 
