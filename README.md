@@ -122,8 +122,6 @@ Thanks buat semua yang sudah kontribusi di project ini 🙌
 <div align="center">
 
 ## Dokumentasi Project
-<div align="center">
-
 ## Wawancara
 
 <img src="img/dokumentasi wawancara.jpg" width="250" style="aspect-ratio:1/1; object-fit:cover; margin:10px;" />
@@ -138,7 +136,6 @@ Thanks buat semua yang sudah kontribusi di project ini 🙌
 
  # 🖨️ Fikri Production - Digital Printing Management System
 
-<div align="center">
 
 ###  Scrennshoot Tampilan WEB
 
@@ -572,4 +569,4 @@ Klik "Logout" di navbar
 
 **Impact:** Meningkatkan awareness produk baru
 
-## Semoga webb ini bisa membatu
+# Semoga Web App ini bisa membatu
