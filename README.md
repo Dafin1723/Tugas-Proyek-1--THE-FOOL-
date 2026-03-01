@@ -569,4 +569,4 @@ Klik "Logout" di navbar
 
 **Impact:** Meningkatkan awareness produk baru
 
-# Semoga Web App ini bisa membatu
+# <h1 align="center">Semoga web ini bisa membatu</h1>
